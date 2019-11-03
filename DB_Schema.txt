@@ -1,0 +1,19 @@
+
+
+create table `match_details` (
+	`match_id` double ,
+	`date` varchar (765),
+	`run_scored` varchar (765),
+	`series_name` varchar (765),
+	`player_id` double ,
+	`match_date` datetime ,
+	`run_scrore` double 
+); 
+
+
+create table `player_details` (
+	`player_id` double ,
+	`no_of_matches` double ,
+	`player_name` varchar (765),
+	`total_score` double 
+); 
